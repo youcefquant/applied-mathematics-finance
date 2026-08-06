@@ -1,7 +1,6 @@
 #Data extraction
-#
-import yfinance as yf
 
+import yfinance as yf
 appl=yf.download("AAPL",
                  start="2026-01-01",
                  end="2026-07-01",
