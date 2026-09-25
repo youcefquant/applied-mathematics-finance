@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 from scipy import stats
 import yfinance as yf
-
+#downlaod data form yahoo finance
 df=yf.download("AAPL",
                period="1y",
                multi_level_index=False)
